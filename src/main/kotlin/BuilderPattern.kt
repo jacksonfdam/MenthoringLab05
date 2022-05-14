@@ -1,6 +1,6 @@
-import kotlin.properties.Delegates
-
 /*
+Design Patterns / Creational Patterns
+
 Builder Pattern
 
 Builder is a creational design pattern that lets you construct complex objects step by step.
@@ -55,6 +55,8 @@ objects called builders.
 Builder Pattern 1.1
 
  */
+
+import kotlin.properties.Delegates
 
 data class House(
     var window: Int,
